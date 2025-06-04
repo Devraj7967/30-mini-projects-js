@@ -7,7 +7,7 @@ const reset = document.querySelector('.reset')
 minusBtn.addEventListener('click', () => {
     const countValue = parseInt(count.innerText);
     const changevalue = parseInt(changeby.value)
-    count.innerText = countValue - 1;
+    count.innerText = countValue - changevalue;
 })
 
 plusbtn.addEventListener('click', () => {
