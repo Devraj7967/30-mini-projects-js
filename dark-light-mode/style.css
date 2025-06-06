@@ -1,0 +1,31 @@
+/* Light mode body */
+body {
+  background-color: white;
+  color: black;
+}
+
+/* Light mode container */
+.container {
+  background-color: #f0f0f0;
+  color: black;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+/* Full dark mode for body */
+body.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+/* Full dark mode, but container still in light mode */
+body.dark-mode .container {
+  background-color: #ffffff; /* Light background */
+  color: #000000;            /* Dark text */
+}
+
+/* When container dark mode is also ON */
+.container.dark-mode {
+  background-color: #333;
+  color: white;
+}
