@@ -1,0 +1,58 @@
+/* Base styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  transition: background 0.3s, color 0.3s;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+/* Light mode */
+body.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+body.light-mode .card {
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+}
+
+/* Dark mode */
+body.dark-mode {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+body.dark-mode .card {
+  background-color: #2e2e2e;
+  border: 1px solid #444;
+}
+
+/* Card */
+.card {
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+a {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #007bff;
+}
